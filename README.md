@@ -69,5 +69,5 @@ Al ser una solución nativa ("Vanilla"), no requiere instalación de `node_modul
 /
 ├── index.html      # Estructura y maquetación
 ├── styles.css      # Estilos visuales y responsividad
-├── scripts.js      # Lógica de negocio, consumo de API y filtrado híbrido
+├── script.js      # Lógica de negocio, consumo de API y filtrado híbrido
 └── README.md       # Documentación técnica
