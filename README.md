@@ -1,4 +1,4 @@
-# Directorio de Talento - Reto Técnico NTT DATA
+# Directorio de Personal - Reto Técnico NTT DATA
 
 Este proyecto es una aplicación web tipo **SPA (Single Page Application)** desarrollada como solución al desafío técnico de Front-end. La aplicación consume la API pública de [RandomUser](https://randomuser.me/) para generar, visualizar y gestionar un directorio de personas con funcionalidades de filtrado.
 
