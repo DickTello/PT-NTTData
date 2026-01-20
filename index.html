@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Técnico NTT DATA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Directorio de Personal</h1>
+    </header>
+    
+    <!-- Control de filtros -->
+    <div class="controls">
+        <input type="text" id="buscador" placeholder="Buscar por nombre...">
+        
+        <select id="filtro-genero">
+            <option value="all">Género: Todos</option>
+            <option value="female">Mujeres</option>
+            <option value="male">Hombres</option>
+        </select>
+
+        <select id="filtro-pais">
+            <option value="all">País: Todos</option>
+            </select>
+
+        <p id="contador">Listos para cargar</p>
+    </div>
+
+    <main>
+        <!-- Aquí se generarán dinámicamente las tarjetas de perfil -->
+        <div id="grid-usuarios" class="grid-container"></div>
+        
+        <div class="boton-container">
+            <!-- Botón para cargar más perfiles -->
+            <button id="btn-cargar" class="btn">Cargar más</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
