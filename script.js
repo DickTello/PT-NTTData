@@ -164,5 +164,5 @@ filtroGenero.addEventListener('change', renderizar);
 filtroPais.addEventListener('change', renderizar);
 buscador.addEventListener('input', renderizar);
 
-// Inicio
+// Iniciar
 iniciarApp();
